@@ -1,0 +1,13 @@
+prefix=C:/Users/ganesh/OneDrive/Desktop/AI Workforce/unsupervised-PCA task/venv/Library
+exec_prefix=C:/Users/ganesh/OneDrive/Desktop/AI Workforce/unsupervised-PCA task/venv/Library
+libdir=C:/Users/ganesh/OneDrive/Desktop/AI Workforce/unsupervised-PCA task/venv/Library/lib
+sharedlibdir=C:/Users/ganesh/OneDrive/Desktop/AI Workforce/unsupervised-PCA task/venv/Library/lib
+includedir=C:/Users/ganesh/OneDrive/Desktop/AI Workforce/unsupervised-PCA task/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
